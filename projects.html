@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Julien Amiel</title>
+  <meta name="description" content="Projects by Julien Amiel — human-centered design and innovation work, including the SafeLink Bluetooth-mesh emergency communication app.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="index.html" class="nav__logo" aria-label="Julien Amiel home">
+    <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+      <rect x="2" y="2" width="60" height="60" rx="16" fill="#f5f5f0"/>
+      <path d="M20 11 L42 11 L42 39 C42 48 36 54 29 54 C21 54 15 49 13 41 L21 38.5 C22 42 25 44.5 29 44.5 C33 44.5 34 43 34 39 L34 20 L20 20 Z" fill="#ff5b3a"/>
+      <circle cx="51" cy="15" r="7" fill="#0a0a0f"/>
+    </svg>
+    <span>Julien Amiel</span>
+  </a>
+  <nav class="nav__links">
+    <a href="index.html" class="nav__link">index</a>
+    <a href="about.html" class="nav__link">about</a>
+    <a href="projects.html" class="nav__link" aria-current="page">projects</a>
+    <a href="safelink.html" class="nav__link">safelink</a>
+    <a href="contact.html" class="nav__link">contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="container">
+    <div class="section-head">
+      <span class="section-head__num">— Projects</span>
+      <h1 class="section-head__title">Things I've <em>built.</em></h1>
+    </div>
+
+    <article class="project-card">
+      <div class="project-card__visual" aria-hidden="true">
+        <div class="safelink-mock">
+          <svg viewBox="0 0 400 300" fill="none">
+            <defs>
+              <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#ff5b3a" stop-opacity=".25"/>
+                <stop offset="100%" stop-color="#ff5b3a" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="200" cy="150" r="140" fill="url(#g2)"/>
+            <g stroke="#ff5b3a" stroke-width="1" stroke-dasharray="3,4" opacity=".5">
+              <line x1="80" y1="80" x2="200" y2="150"/>
+              <line x1="200" y1="150" x2="320" y2="80"/>
+              <line x1="200" y1="150" x2="120" y2="220"/>
+              <line x1="200" y1="150" x2="290" y2="220"/>
+              <line x1="80" y1="80" x2="120" y2="220"/>
+              <line x1="320" y1="80" x2="290" y2="220"/>
+            </g>
+            <g fill="#0a0a0f" stroke="#ff5b3a" stroke-width="2">
+              <circle cx="80" cy="80" r="14"/>
+              <circle cx="320" cy="80" r="14"/>
+              <circle cx="120" cy="220" r="14"/>
+              <circle cx="290" cy="220" r="14"/>
+            </g>
+            <circle cx="200" cy="150" r="20" fill="#ff5b3a"/>
+            <g fill="#f5f5f0" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="middle">
+              <text x="80" y="83">node</text>
+              <text x="320" y="83">node</text>
+              <text x="120" y="223">node</text>
+              <text x="290" y="223">node</text>
+              <text x="200" y="153" fill="#0a0a0f" font-weight="700">YOU</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div>
+        <span class="project-card__tag">Case Study · 2025</span>
+        <h3 class="project-card__title">SafeLink</h3>
+        <p class="project-card__desc">
+          A Bluetooth-mesh emergency communication app for NYC residents.
+          When cell and internet networks fail, SafeLink lets people receive
+          alerts, contact emergency services, and message each other through
+          nearby devices.
+        </p>
+        <div class="project-card__meta">
+          <span>HCDI · Columbia</span>
+          <span>Section 2 · Team 10</span>
+          <span>Role: design + research</span>
+        </div>
+        <a href="safelink.html" class="btn btn--primary">
+          Open case study <span class="arrow">→</span>
+        </a>
+      </div>
+    </article>
+
+    <div style="margin-top:80px; padding:48px; border:1px dashed var(--line); border-radius:var(--radius); text-align:center;">
+      <p style="font-family:var(--mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--text-faint); margin-bottom:16px;">
+        More work in progress
+      </p>
+      <p style="font-family:var(--serif); font-size:clamp(24px, 3vw, 36px); font-style:italic; color:var(--text-dim); max-width:540px; margin:0 auto;">
+        Future projects will live here as they ship.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__copyright">© 2026 Julien Amiel — built with <em>care</em>.</p>
+    <p>New York City</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julien Amiel — Human-Centered Design & Innovation</title>
+  <meta name="description" content="Portfolio of Julien Amiel — Master's student in Operations Research at Columbia University. Projects in human-centered design and innovation.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="index.html" class="nav__logo" aria-label="Julien Amiel home">
+    <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+      <rect x="2" y="2" width="60" height="60" rx="16" fill="#f5f5f0"/>
+      <path d="M20 11 L42 11 L42 39 C42 48 36 54 29 54 C21 54 15 49 13 41 L21 38.5 C22 42 25 44.5 29 44.5 C33 44.5 34 43 34 39 L34 20 L20 20 Z" fill="#ff5b3a"/>
+      <circle cx="51" cy="15" r="7" fill="#0a0a0f"/>
+    </svg>
+    <span>Julien Amiel</span>
+  </a>
+  <nav class="nav__links">
+    <a href="index.html" class="nav__link" aria-current="page">index</a>
+    <a href="about.html" class="nav__link">about</a>
+    <a href="projects.html" class="nav__link">projects</a>
+    <a href="safelink.html" class="nav__link">safelink</a>
+    <a href="contact.html" class="nav__link">contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container">
+    <p class="hero__eyebrow fade-in">Portfolio · 2026</p>
+    <h1 class="hero__title fade-in delay-1">
+      Julien<br>
+      <em>Amiel.</em>
+    </h1>
+    <p class="hero__sub fade-in delay-2">
+      Master's student in <strong>Operations Research at Columbia University</strong>,
+      designing systems where math, code, and people meet — through the lens of
+      <strong>human-centered design & innovation</strong>.
+    </p>
+    <div class="hero__cta fade-in delay-3">
+      <a href="safelink.html" class="btn btn--primary">
+        See SafeLink case study <span class="arrow">→</span>
+      </a>
+      <a href="about.html" class="btn">
+        About me <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span class="marquee__item">Human-centered design</span>
+      <span class="marquee__item">Operations research</span>
+      <span class="marquee__item">Systems thinking</span>
+      <span class="marquee__item">Innovation</span>
+      <span class="marquee__item">Resilient infrastructure</span>
+      <span class="marquee__item">Mathematics & code</span>
+      <span class="marquee__item">Human-centered design</span>
+      <span class="marquee__item">Operations research</span>
+      <span class="marquee__item">Systems thinking</span>
+      <span class="marquee__item">Innovation</span>
+      <span class="marquee__item">Resilient infrastructure</span>
+      <span class="marquee__item">Mathematics & code</span>
+    </div>
+  </div>
+
+  <section class="container">
+    <div class="section-head">
+      <span class="section-head__num">01 — Featured</span>
+      <h2 class="section-head__title">Selected <em>work.</em></h2>
+    </div>
+
+    <article class="project-card">
+      <div class="project-card__visual" aria-hidden="true">
+        <div class="safelink-mock">
+          <svg viewBox="0 0 400 300" fill="none">
+            <defs>
+              <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#ff5b3a" stop-opacity=".25"/>
+                <stop offset="100%" stop-color="#ff5b3a" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <!-- Background pulse -->
+            <circle cx="200" cy="150" r="140" fill="url(#g1)"/>
+            <!-- Mesh nodes -->
+            <g stroke="#ff5b3a" stroke-width="1" stroke-dasharray="3,4" opacity=".5">
+              <line x1="80" y1="80" x2="200" y2="150"/>
+              <line x1="200" y1="150" x2="320" y2="80"/>
+              <line x1="200" y1="150" x2="120" y2="220"/>
+              <line x1="200" y1="150" x2="290" y2="220"/>
+              <line x1="80" y1="80" x2="120" y2="220"/>
+              <line x1="320" y1="80" x2="290" y2="220"/>
+            </g>
+            <g fill="#0a0a0f" stroke="#ff5b3a" stroke-width="2">
+              <circle cx="80" cy="80" r="14"/>
+              <circle cx="320" cy="80" r="14"/>
+              <circle cx="120" cy="220" r="14"/>
+              <circle cx="290" cy="220" r="14"/>
+            </g>
+            <g fill="#ff5b3a">
+              <circle cx="200" cy="150" r="20"/>
+            </g>
+            <g fill="#f5f5f0" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="middle">
+              <text x="80" y="83">node</text>
+              <text x="320" y="83">node</text>
+              <text x="120" y="223">node</text>
+              <text x="290" y="223">node</text>
+              <text x="200" y="153" fill="#0a0a0f" font-weight="700">YOU</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div>
+        <span class="project-card__tag">Featured Case Study</span>
+        <h3 class="project-card__title">SafeLink</h3>
+        <p class="project-card__desc">
+          A Bluetooth-mesh emergency communication app for NYC residents,
+          designed to keep people informed and connected when cellular and
+          internet networks fail.
+        </p>
+        <div class="project-card__meta">
+          <span>Columbia · Section 2 · Team 10</span>
+          <span>HCDI · 2025</span>
+        </div>
+        <a href="safelink.html" class="btn btn--primary">
+          Open case study <span class="arrow">→</span>
+        </a>
+      </div>
+    </article>
+  </section>
+
+  <section class="container">
+    <div class="section-head">
+      <span class="section-head__num">02 — Approach</span>
+      <h2 class="section-head__title">Designing for <em>people</em>, with rigor.</h2>
+    </div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar__num">01</div>
+        <h3>Listen first</h3>
+        <p>Every project starts with interviews and lived observation. The math comes after the people.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__num">02</div>
+        <h3>Model the system</h3>
+        <p>Coming from operations research, I treat human behavior as part of a wider, optimizable system — not noise.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__num">03</div>
+        <h3>Build to learn</h3>
+        <p>Prototypes exist to be wrong. Each iteration sharpens the question more than it answers it.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__num">04</div>
+        <h3>Design for fairness</h3>
+        <p>Solutions that only work for the well-served aren't solutions. Equity is a design constraint, not an afterthought.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__copyright">© 2026 Julien Amiel — built with <em>care</em>.</p>
+    <p>New York City</p>
+  </div>
+</footer>
+
+</body>
+</html>

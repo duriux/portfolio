@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SafeLink — Julien Amiel</title>
+  <meta name="description" content="SafeLink — a Bluetooth-mesh emergency communication app for NYC residents during cellular and internet failure. Case study by Julien Amiel.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="index.html" class="nav__logo" aria-label="Julien Amiel home">
+    <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+      <rect x="2" y="2" width="60" height="60" rx="16" fill="#f5f5f0"/>
+      <path d="M20 11 L42 11 L42 39 C42 48 36 54 29 54 C21 54 15 49 13 41 L21 38.5 C22 42 25 44.5 29 44.5 C33 44.5 34 43 34 39 L34 20 L20 20 Z" fill="#ff5b3a"/>
+      <circle cx="51" cy="15" r="7" fill="#0a0a0f"/>
+    </svg>
+    <span>Julien Amiel</span>
+  </a>
+  <nav class="nav__links">
+    <a href="index.html" class="nav__link">index</a>
+    <a href="about.html" class="nav__link">about</a>
+    <a href="projects.html" class="nav__link">projects</a>
+    <a href="safelink.html" class="nav__link" aria-current="page">safelink</a>
+    <a href="contact.html" class="nav__link">contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="case-hero container">
+    <p class="case-hero__tag">Case Study · Human-Centered Design & Innovation</p>
+    <h1 class="case-hero__title">
+      Safe<em>Link.</em>
+    </h1>
+    <p class="case-hero__lede">
+      An offline emergency communication app, powered by Bluetooth mesh,
+      so NYC residents stay informed and connected when cellular and internet
+      networks fail.
+    </p>
+
+    <div class="case-meta">
+      <div class="case-meta__item">
+        <span>Course</span>
+        <p>HCDI — Columbia University</p>
+      </div>
+      <div class="case-meta__item">
+        <span>Team</span>
+        <p>Section 2 · Team 10</p>
+      </div>
+      <div class="case-meta__item">
+        <span>Year</span>
+        <p>2025</p>
+      </div>
+      <div class="case-meta__item">
+        <span>Role</span>
+        <p>Research, design, system modeling</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">01 — The problem</p>
+      <div class="case-grid__body">
+        <h2>Communication breaks <em>before</em> infrastructure does.</h2>
+        <p>
+          NYC depends on interconnected digital systems for transit, navigation,
+          payments, work, and contacting one another. When internet or cellular
+          networks fail — through floods, hurricanes, blackouts, or targeted attacks
+          like the 2025 Secret Service-dismantled telecom plot —
+          <strong>residents lose access to trusted information</strong>, route updates,
+          emergency contacts, and ways to reach the people they care about.
+        </p>
+        <p>
+          Weak analog backups and uneven preparedness make the disruption harder
+          to manage. The result is uncertainty, slower decisions, and breakdown of
+          coordination at the moments when it matters most.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">02 — Design question</p>
+      <div class="case-grid__body">
+        <h2>How might we keep <em>trusted</em> communication moving when networks fail?</h2>
+        <p>
+          We framed our challenge around maintaining accessible, hyperlocal,
+          actionable communication — not simply restoring signal, but restoring
+          the <strong>trust and clarity</strong> that signal usually carries.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="pullquote">
+      "People don't simply need <em>more information</em> during outages.<br>
+      They need trusted, actionable communication delivered on predictable channels —<br>
+      even when normal digital systems fail."
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">03 — The users</p>
+      <div class="case-grid__body">
+        <h2>Designed for the people most exposed.</h2>
+        <ul>
+          <li>NYC residents affected by internet and cellular failure (often a downstream consequence of a wider emergency)</li>
+          <li>Commuters who depend on live transit and route information</li>
+          <li>People trying to reach medical help, emergency centers, police, or fire services</li>
+          <li>Residents trying to contact family, friends, or caregivers during disruption</li>
+          <li>Users in dense, fast-moving areas where information needs to spread quickly across neighborhoods</li>
+        </ul>
+        <p>
+          Stakeholders extend beyond residents to hospitals, urgent care centers, pharmacies,
+          emergency services, community centers, and partnered government agencies that supply
+          verified updates.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">04 — Solution</p>
+      <div class="case-grid__body">
+        <h2>SafeLink — a <em>Bluetooth-mesh</em> platform.</h2>
+        <p>
+          SafeLink enables communication without internet during emergencies,
+          partnered with NYC Government to provide trusted status updates and alerts.
+        </p>
+        <ul>
+          <li>Deliver updates and alerts through Bluetooth mesh</li>
+          <li>Convey verified causes of emergencies (when known)</li>
+          <li>Update current location information</li>
+          <li>Provide transportation and road updates</li>
+          <li>Offer quick access to emergency contacts</li>
+          <li>Enable users to send messages to others nearby</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">05 — Experience arc</p>
+      <div class="case-grid__body">
+        <h2>From <em>before</em>, to during, to after.</h2>
+        <p><strong>Before disruption.</strong> Users download the app in advance. SafeLink stores offline maps, emergency contacts, and the user's contact list. People prepare by enabling Bluetooth.</p>
+        <p><strong>During disruption.</strong> Users receive alerts about the situation. SafeLink shows location, route, transportation, and road updates. Users can contact emergency services or send messages to others. Information spreads through nearby devices and nodes.</p>
+        <p><strong>Post-disaster.</strong> People reconnect, coordinate, and adjust routes or plans. SafeLink supports a smoother transition from disruption to recovery.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">06 — Ecosystem</p>
+      <div class="case-grid__body">
+        <h2>SafeLink doesn't work <em>alone.</em></h2>
+        <p>
+          NYC is the most densely populated major city in the United States, which
+          makes it the perfect candidate for a dedicated Bluetooth mesh communication
+          system. The density ensures that the SafeLink connection rarely drops —
+          there are always enough nodes to relay communication.
+        </p>
+        <ul>
+          <li><strong>Information sources</strong> — NYC Government, emergency centers, public agencies, hospitals, transportation departments</li>
+          <li><strong>Physical infrastructure</strong> — community centers providing power, intact power lines and generators that keep participating devices active</li>
+          <li><strong>Technology layer</strong> — Bluetooth mesh, power sources, offline maps</li>
+          <li><strong>Users</strong> — residents who receive, carry, and pass information through the mesh, often implicitly</li>
+          <li><strong>Support system</strong> — emergency services, police, fire, medical institutions</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">07 — Compared to alternatives</p>
+      <div class="case-grid__body">
+        <h2>Where existing tools <em>fall short.</em></h2>
+        <div class="compare-wrap">
+          <table class="compare">
+            <thead>
+              <tr>
+                <th>Solution</th>
+                <th>Works offline</th>
+                <th>Hyperlocal</th>
+                <th>User input + emergency call</th>
+                <th>Infrastructure-free</th>
+                <th>Emergency alerts</th>
+                <th>Partnered with NYC gov</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Twitter / X</td>
+                <td><span class="no">●</span></td><td><span class="no">●</span></td><td><span class="yes">●</span></td><td><span class="no">●</span></td><td><span class="no">●</span></td><td><span class="no">●</span></td>
+              </tr>
+              <tr>
+                <td>FEMA apps</td>
+                <td><span class="no">●</span></td><td><span class="no">●</span></td><td><span class="no">●</span></td><td><span class="no">●</span></td><td><span class="yes">●</span></td><td><span class="no">●</span></td>
+              </tr>
+              <tr>
+                <td>Bridgefy</td>
+                <td><span class="yes">●</span></td><td><span class="no">●</span></td><td><span class="yes">●</span></td><td><span class="yes">●</span></td><td><span class="no">●</span></td><td><span class="no">●</span></td>
+              </tr>
+              <tr class="highlight">
+                <td>SafeLink</td>
+                <td><span class="yes">●</span></td><td><span class="yes">●</span></td><td><span class="yes">●</span></td><td><span class="yes">●</span></td><td><span class="yes">●</span></td><td><span class="yes">●</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">08 — Designing for fairness</p>
+      <div class="case-grid__body">
+        <h2>Resilience that <em>doesn't</em> skip the underserved.</h2>
+        <p>Equity sat at the center of design decisions, not at the edge.</p>
+        <ul>
+          <li><strong>No required installation.</strong> The mesh relies on the proximity of personal devices, not on heavy technical infrastructure that often underserves low-income areas.</li>
+          <li><strong>Hyperlocality.</strong> Users aren't drowned in irrelevant updates — they receive what applies to where they actually are.</li>
+          <li><strong>Specificity.</strong> Partnership with NYC Government allows local agencies to serve their residents directly, so regions needing verified updates aren't glossed over.</li>
+          <li><strong>Equity-oriented partnerships.</strong> The Alerts page surfaces resources from NYC nonprofits and grassroots disaster relief organizations.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="pullquote">
+      When networks fail, <em>SafeLink connects.</em>
+    </div>
+  </section>
+
+  <section class="case-section container">
+    <div class="case-grid">
+      <p class="case-grid__label">09 — Reflection</p>
+      <div class="case-grid__body">
+        <h2>What I took from <em>this work.</em></h2>
+        <p>
+          SafeLink reframed for me what "infrastructure" really is. The most resilient
+          systems aren't the ones with the deepest engineering — they're the ones that
+          stay legible to the people inside them, even when conditions are at their worst.
+        </p>
+        <p>
+          Working through interviews, mapping ecosystems, and designing for fairness alongside
+          a strong team taught me that human-centered design is not an alternative to rigor —
+          it <em>is</em> the rigor. Every assumption I tried to optimize for had a person
+          standing behind it, with a real plan for what they'd do when things broke.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__copyright">© 2026 Julien Amiel — built with <em>care</em>.</p>
+    <p>New York City</p>
+  </div>
+</footer>
+
+</body>
+</html>
